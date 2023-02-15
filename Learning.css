@@ -1,0 +1,757 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  body{
+    background: #DAC3F1;
+    margin:0;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .header{
+    background-color: #B7A1E1;
+    width: 1534px;
+    height: 165px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .container{
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 2em;
+    width: 1450px;
+    height: 475px;
+  }
+
+  .head{
+    font-size: 70px;
+    width: 900px;
+  }
+
+  .button_learn {
+    background-color: black;
+    border-radius: 0px 25px 25px 0px;
+    height: 500px;
+    width: 170px;
+    position: relative;
+    right: 48px;
+    bottom: 20px;
+  }
+
+  .buttons{
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 67px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  .icon{
+    width: 130%;
+    height: 130%;
+    margin-bottom: 25px;
+    position: relative;
+    left: 25px;
+    z-index: 1;
+  }
+
+  .type{
+    position: relative;
+    bottom: 530px;
+  }
+
+  .types{
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 0px;
+  }
+
+  .word{
+    margin-bottom: 135px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .words{
+    color: black;
+    position: relative;
+    width: 200px;
+    bottom: 1005px;
+    left: 550px;
+    font-size: 20px;
+  }
+
+  .words2{
+    color: black;
+    position: relative;
+    width: 200px;
+    bottom: 1045px;
+    left: 550px;
+    font-size: 20px;
+  }
+
+  .ribbon{
+    position: relative;
+    left: 130px;
+  }
+
+  .learn_button{
+    width: 250px;
+    position: relative;
+    left: 1200px;
+    bottom: 540px;
+  }
+
+  .learn_flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grp{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .learn{
+    color: black;
+    background-color: #FFEEB6;
+    font-size: 30px;
+    width: 250px;
+    margin-bottom: 75px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    top: 80px;
+    border-color: none;
+  }
+
+  .learn:hover{
+    color: white;
+    background-color: black;
+  }
+
+  .select{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    width: 250px;
+    margin-bottom: 75px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    top: 80px;
+    border-color: none;
+  }
+
+  .desc{
+    position: relative;
+    bottom: 155px;
+  }
+
+  .def{
+    position: relative;
+    bottom: 880px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+  }
+
+  .post{
+    height: 220px;
+    width: 680px;
+    background-color: white;
+    position: relative;
+    bottom: 910px;
+    border-radius: 30px;
+  }
+
+  .ribbon_learn{
+    position: relative;
+    right: 270px;
+    bottom: 890px;
+    width: 13%;
+    height: 13%;
+  }
+
+  .post2{
+    height: 220px;
+    width: 400px;
+    background-color: #F0E7F9;
+    position: relative;
+    bottom: 1135px;
+    left: 665px;
+    border-radius: 30px;
+  }
+
+  .misc{
+    height: 440px;
+    width: 710px;
+    background-color: #F0E7F9;
+    position: relative;
+    bottom: 910px;
+    border-radius: 30px;
+  }
+
+  .edit{
+    position: relative;
+    left: 300px;
+    bottom: 710px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pst{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    right: 50px;
+    top: 20px;
+  }
+
+  .web{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    right: 50px;
+    top: 20px;
+  }
+
+  .src{
+    height: 380px;
+    width: 370px;
+    background-color: white;
+    border-radius: 30px;
+    color: #989898;
+    margin-right: 90px;
+    border: black;
+  }
+  .src2{
+    height: 380px;
+    width: 370px;
+    background-color: white;
+    border-radius: 30px;
+    color: #989898;
+    margin-right: 90px;
+    border: black;
+  }
+
+  .learn_edit{
+    color: black;
+    background-color: #FFEEB6;
+    font-size: 30px;
+    width: 250px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    left: 15px;
+    top: 12px;
+    border-color: none;
+  }
+
+  .learn_edit:hover{
+    color: white;
+    background-color: black;
+  }
+
+  .learn_post{
+    background-color: white;
+    position: relative;
+    left: 1175px;
+    bottom: 400px;
+    width: 280px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .back{
+    color: black;
+    background-color: #FFEEB6;
+    font-size: 30px;
+    width: 180px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    left: 95px;
+    top: 40px;
+    border-color: none;
+  }
+
+  .back:hover{
+    color: white;
+    background-color: black;
+  }
+
+  .posttext{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+  }
+
+  .posttext2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .posthead{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+  .Userone{
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    position: relative;
+    bottom: 1335px;
+    border-radius: 30px;
+    left: 400px;
+  }
+
+  .User1{
+    color: black;
+    position: relative;
+    bottom: 1560px;
+    left: 620px;
+    font-size: 35px;
+    width: 370px;
+  }
+
+  .UserTextOne{
+    color: black;
+    position: relative;
+    bottom: 1590px;
+    left: 620px;
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .Usertwo{
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    position: relative;
+    bottom: 1750px;
+    border-radius: 30px;
+    left: 400px;
+  }
+
+  .User2{
+    color: black;
+    position: relative;
+    bottom: 1965px;
+    left: 620px;
+    font-size: 35px;
+    width: 370px;
+  }
+
+  .UserTextTwo{
+    color: black;
+    position: relative;
+    bottom: 1995px;
+    left: 620px;
+    font-size: 20px;
+    width: 420px;
+  }
+
+  .UserOrgOne{
+    color: black;
+    position: relative;
+    bottom: 1520px;
+    left: 620px;
+    font-size: 25px;
+    width: 400px;
+  }
+
+  @media (max-width: 1300px){
+    .type{
+      position: relative;
+      bottom: 160px;
+    }
+
+    .word{
+      position: relative;
+      top: 100px;
+      margin-bottom: 105px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .words2{
+      color: black;
+      position: relative;
+      width: 200px;
+      bottom: 675px;
+      left: 550px;
+      font-size: 20px;
+    }
+
+    .words{
+      color: black;
+      position: relative;
+      width: 200px;
+      bottom: 635px;
+      left: 550px;
+      font-size: 20px;
+    }
+
+    .types{
+      color: black;
+      background-color: white;
+      width: 320px;
+      height: 130px;
+      margin-bottom: 15px;
+      border-radius: 25px;
+      font-size: 20px;
+      border: 0px;
+    }
+
+    .ribbon{
+      position: relative;
+      left: 100px;
+      width: 35%;
+      height: 70%;
+    }
+
+    .buttons{
+      position: absolute;
+      left: 5px;
+      top: 30px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .icon{
+      width: 65%;
+      height: 58%;
+      margin-right: 70px;
+      position: relative;
+      left: 40px;
+      bottom: 5px;
+      z-index: 1;
+    }
+
+    .button_learn {
+      background-color: black;
+      border-radius: 25px 25px 0px 0px;
+      height: 130px;
+      width: 600px;
+      position: relative;
+      left: 425px;
+      top: 400px;
+      text-align: center;
+    }
+
+    .learn_button{
+      width: 250px;
+      position: relative;
+      left: 460px;
+      bottom: 240px;
+    }
+
+    .grp{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .learn{
+      color: black;
+      background-color: #FFEEB6;
+      font-size: 25px;
+      width: 250px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      text-align: center;
+      border-radius: 25px;
+      position: relative;
+      top: 80px;
+      border-color: none;
+    }
+
+    .select{
+      color: white;
+      background-color: black;
+      font-size: 25px;
+      width: 250px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      text-align: center;
+      border-radius: 25px;
+      position: relative;
+      top: 80px;
+      border-color: none;
+    }
+
+    .desc{
+      position: relative;
+      top: 680px;
+    }
+
+    .def{
+      position: relative;
+      bottom: 880px;
+      text-align: center;
+      color: black;
+      font-size: 30px;
+    }
+  
+    .post{
+      height: 150px;
+      width: 500px;
+      background-color: white;
+      position: relative;
+      bottom: 910px;
+      border-radius: 30px;
+    }
+
+    .ribbon_learn{
+      position: relative;
+      right: 200px;
+      bottom: 900px;
+      width: 9%;
+      height: 9%;
+    }
+  
+    .post2{
+      height: 130px;
+      width: 260px;
+      background-color: #F0E7F9;
+      position: relative;
+      bottom: 1055px;
+      left: 715px;
+      border-radius: 30px;
+    }
+
+    .misc{
+      height: 294px;
+      width: 500px;
+      background-color: #F0E7F9;
+      position: relative;
+      bottom: 910px;
+      border-radius: 30px;
+    }
+
+    .edit{
+      position: relative;
+      left: 200px;
+      bottom: 320px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .src{
+      position: relative;
+      top: 130px;
+      left: 250px;
+      height: 140px;
+      width: 550px;
+      background-color: white;
+      border-radius: 30px;
+      color: #989898;
+      margin-right: 90px;
+      border: black;
+    }
+
+    .src2{
+      position: relative;
+      top: 310px;
+      right: 490px;
+      height: 140px;
+      width: 550px;
+      background-color: white;
+      border-radius: 30px;
+      color: #989898;
+      margin-right: 90px;
+      border: black;
+    }
+
+    .back{
+      color: black;
+      background-color: #FFEEB6;
+      font-size: 20px;
+      width: 100px;
+      text-align: center;
+      border-radius: 25px;
+      position: relative;
+      margin-right: 640px;
+      top: 290px;
+      border-color: none;
+    }
+
+    .learn_edit{
+      color: black;
+      background-color: #FFEEB6;
+      font-size: 20px;
+      width: 150px;
+      margin-right: 15px;
+      text-align: center;
+      border-radius: 25px;
+      position: relative;
+      left: 15px;
+      top: 12px;
+      border-color: none;
+    }
+
+    .learn_post{
+      background-color: white;
+      position: relative;
+      left: 558px;
+      bottom: 165px;
+      width: 345px;
+      border-radius: 20px;
+      z-index: 1;
+    }
+
+    .learn_flex2{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .pst{
+      color: black;
+      font-size: 20px;
+      position: relative;
+      text-align: center;
+      right: 585px;
+      top: 325px;
+    }
+  
+    .web{
+      color: black;
+      font-size: 20px;
+      position: relative;
+      text-align: center;
+      left: 155px;
+      top: 145px;
+    }
+
+    .posttext{
+      color: black;
+      width: 450;
+      text-align: center;
+      font-size: 20px;
+      position: relative;
+      top: 20px;
+    }
+  
+    .posttext2{
+      color: black;
+      text-align: center;
+      font-size: 20px;
+      position: relative;
+      bottom: 10px;
+    }
+  
+    .posthead{
+      color: black;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      top: 10px;
+    }
+
+    .Userone{
+      height: 90px;
+      width: 90px;
+      background-color: white;
+      position: relative;
+      bottom: 1185px;
+      border-radius: 30px;
+      left: 500px;
+    }
+  
+    .User1{
+      color: black;
+      position: relative;
+      bottom: 1310px;
+      left: 610px;
+      font-size: 25px;
+      width: 370px;
+    }
+  
+    .UserTextOne{
+      color: black;
+      position: relative;
+      bottom: 1330px;
+      left: 610px;
+      font-size: 15px;
+      width: 360px;
+    }
+  
+    .Usertwo{
+      height: 90px;
+      width: 90px;
+      background-color: white;
+      position: relative;
+      bottom: 655px;
+      border-radius: 30px;
+      left: 500px;
+    }
+  
+    .User2{
+      color: black;
+      position: relative;
+      bottom: 770px;
+      left: 610px;
+      font-size: 25px;
+      width: 370px;
+    }
+  
+    .UserTextTwo{
+      color: black;
+      position: relative;
+      bottom: 790px;
+      left: 610px;
+      font-size: 15px;
+      width: 360px;
+    }
+
+    .UserOrgOne{
+      color: black;
+      position: relative;
+      bottom: 1270px;
+      left: 610px;
+      font-size: 15px;
+      width: 360px;
+    }
+  }

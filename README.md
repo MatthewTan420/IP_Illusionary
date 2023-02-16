@@ -9,7 +9,7 @@
 <p>Feature 1) Allow users to login and sign up</p>
 <p>Feature 2) A learning page that let users choose which disability they wish to learn</p>
 
-<h5>Log-In Page:<h5>
+<h5>Future features:<h5>
 <p>Feature 1) A community page that let users post and send messages</p>
 <p>Feature 2) A user page where users can edit their profile picture</p>
 

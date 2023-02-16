@@ -10,7 +10,7 @@
   
   <body>
     <div class="header">
-      <center><div class="head">Cerebral Palsy</div></center>
+      <div class="head">Cerebral Palsy</div>
     </div>
     <div class="container">
       <div class="button_learn">
@@ -30,22 +30,20 @@
         </div>
       </div>
       <div class="learn_button">
-        <a href='Cerebral_Def.html'>
-          <button class="learn">Definition</button>
-        </a>
-        <a href='Cerebral_Mis.html'>
-          <button class="learn">Misconception</button>
-        </a>
-        <a href='Cerebral_Org.html'>
-          <button class="select">Organisations</button>
-        </a>
-        <a href='Cerebral_Post.html'>
-          <button class="learn">Editing</button>
-        </a>
+        <div class="learn_flex">
+          <div class="grp">
+            <button class="learn" onclick="window.location.href='ADHD_Def.html';">Definition</button>
+            <button class="learn" onclick="window.location.href='ADHD_Mis.html';">Misconception</button>
+          </div>
+          <div class="grp">
+            <button class="select" onclick="window.location.href='ADHD_Org.html';">Organisations</button>
+            <button class="learn" onclick="window.location.href='ADHD_Post.html';">Editing</button>
+          </div>
+        </div>
       </div>
       <div class="desc">
         <p class="def">Organisation</p>
-        <center><div class="misc"></div></center>
+        <div class="misc"></div>
       </div>
     </div>
   </body>

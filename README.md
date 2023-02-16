@@ -12,6 +12,8 @@
 <h5>Future features:<h5>
 <p>Feature 1) A community page that let users post and send messages</p>
 <p>Feature 2) A user page where users can edit their profile picture</p>
+<p>Feature 3) A role page where users can redeem vouchers</p>
+<p>Feature 4) Allow users to type their misconceptions and edit them in the learning page</p>
 
 <h3>Technology Used: </h3>
 <p>HTML, CSS, JavaScript</p>

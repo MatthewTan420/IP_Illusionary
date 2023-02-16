@@ -135,6 +135,8 @@ html, body {
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
+    position: relative;
+    left: 485px;
   }
 
   .button_cont {
@@ -161,6 +163,7 @@ html, body {
 
   .head{
     font-size: 70px;
+    text-align: center;
   }
 
   .point{

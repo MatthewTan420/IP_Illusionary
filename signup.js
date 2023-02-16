@@ -5,9 +5,9 @@ $(document).ready(function () {
     $("#start").on("click", function (e) {
       e.preventDefault();
 
-      let username = $("#username").val();
-      let email = $("#email").val();
-      let password = $("#password").val();
+      let username = $("#Username").val();
+      let email = $("#Email").val();
+      let password = $("#Password").val();
 
       let jsondata = {
         "username": username,

@@ -33,6 +33,9 @@ html, body {
   .head{
     font-size: 70px;
     width: 900px;
+    text-align: center;
+    position: relative;
+    left: 317px;
   }
 
   .button_learn {
@@ -192,12 +195,13 @@ html, body {
     background-color: white;
     position: relative;
     bottom: 910px;
+    left: 385px;
     border-radius: 30px;
   }
 
   .ribbon_learn{
     position: relative;
-    right: 270px;
+    left: 360px;
     bottom: 890px;
     width: 13%;
     height: 13%;

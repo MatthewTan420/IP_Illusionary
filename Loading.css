@@ -181,6 +181,7 @@ html, body {
 
   .LoadFonts{
     color: white;
+    text-align: center;
   }
 
   @media (max-width: 711px){

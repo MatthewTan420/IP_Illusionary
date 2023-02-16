@@ -19,6 +19,7 @@ html, body {
     height: 165px;
     position: relative;
     bottom: 10px;
+    text-align: center;
   }
 
   .container{

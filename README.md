@@ -5,11 +5,13 @@
 <p>Our project is an education platform that educates users on the misconceptions people have with Disabilities and share how these people experience the world.</p>
 
 <h3>Design Process</h3>
+<h5>Current features:<h5>
 <p>Feature 1) Allow users to login and sign up</p>
 <p>Feature 2) A learning page that let users choose which disability they wish to learn</p>
-<p>Feature 3) Credentials stored into restdb</p>
-<p>Feature 4) Go loading page</p>
-<p>Feature 5) Go home page after loading</p>
+
+<h5>Log-In Page:<h5>
+<p>Feature 1) A community page that let users post and send messages</p>
+<p>Feature 2) A user page where users can edit their profile picture</p>
 
 <h3>Technology Used: </h3>
 <p>HTML, CSS, JavaScript</p>

@@ -222,6 +222,7 @@ html, body {
     width: 710px;
     background-color: #F0E7F9;
     position: relative;
+    left: 370px;
     bottom: 910px;
     border-radius: 30px;
   }
@@ -375,7 +376,7 @@ html, body {
     width: 180px;
     background-color: white;
     position: relative;
-    bottom: 1750px;
+    bottom: 1595px;
     border-radius: 30px;
     left: 400px;
   }
@@ -383,7 +384,7 @@ html, body {
   .User2{
     color: black;
     position: relative;
-    bottom: 1965px;
+    bottom: 1810px;
     left: 620px;
     font-size: 35px;
     width: 370px;
@@ -392,7 +393,7 @@ html, body {
   .UserTextTwo{
     color: black;
     position: relative;
-    bottom: 1995px;
+    bottom: 1840px;
     left: 620px;
     font-size: 20px;
     width: 420px;

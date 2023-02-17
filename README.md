@@ -62,6 +62,9 @@
 <p> HTML: Was used to connect the bridge between CSS and Javascript. Is what the viewer sees when they open a website.</p>
 <p>CSS: Used to make the website more aesthetically pleasing.</p>
 <p>JavaScript: Was used to make some features within the website functionable. Acts as the skeleton of the website.</p>
+<p>Restdb.io: Was used to store users' credentials such as password and username.</p>
+<p>jQuery: Was used to take user credentials from the html.</p>
+
 <h3>Testing:<h3>
 <h5>Sign-Up Page:<h5>
 <p>1) User can add credentials</p>
@@ -100,6 +103,19 @@
 <p>4) Go misconception page when the misconception button is clicked</p>
 <p>5) Go edit page when edit button is clicked</p>
 <p>1) User can choose whether they wish to create post or edit it</p>
+
+<h5>Bugs:<h5>
+<p>The sketchfab 3D models are not mobile responsive</p>
+<p>The error page in the login/sign-up page does not appear if user does not enter any credentials</p>
+<p>The error page in the login page appears during verification</p>
+<p>The error page in the sign-up page does not appear if user enter an existing email</p>
+<p>The buttons in some of the learning page are not the same size as the original, and some elements are all over the place</p>
+
+<h5>Media query:<h5>
+<p>The main buttons are shifted to the bottom when the screen is shrunked</p>
+<p>Username, profile and role are shifted to the left and the points are vertically aligned at the right side</p>
+<p>The bottom edges of the white box in the login and sign-up page becomes less smooth</p>
+<p>The elements become smaller in size</p>
 
 <h3>Credits/Inspiration:<h3>
 <h5>Images</h5>

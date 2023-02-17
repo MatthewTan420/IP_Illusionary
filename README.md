@@ -4,11 +4,11 @@
 <h4>Theme 6 Project description</h4>
 <p>Our project is an education platform that educates users on the misconceptions people have with Disabilities and share how these people experience the world.</p>
 
-<h3>Design Process<h3>
+<h3>Design Process</h3>
 <p>Our website was made to increase awareness for people with different types of disabilities. Hence my group had to cater the website to ensuring that people could understand the struggles that others with disabilities face in the working world. Our group’s website aims to clear these misconceptions through the use of a community and learning page. The learning page acts as a well of knowledge for more people to access sources which are accurate so that more people can then spread the word to others who do not use the website about these things within their own friend groups. Furthermore, users can clear their doubts using the community page which allow different users with different lives to speak out about their different types of disabilities to show how every person’s struggle is unique due to each of their circumstances and how people often tend to generalise things due to how the media often portray these disabilities.</p> 
 <p>The reason why we think our application would work is because the application allows users with disabilities to post via the community section about their struggles. These people can also post about common misconceptions that they feel are accurate from reliable websites in the misconception page. Our application also allows users to share more beyond their disabilities and show the different kinds of hobbies and interests that they may have that is not often shown in the media setting. The learning page also allows organisations such as CHADD to join and make their own page via the website to allow more people to view these websites and be able to volunteer at these organisations. This can raise more awareness and allow more people to spread the word about the organisation and the app which allows both to attract more people towards the same cause.</p>
 <p>During the designing process, we decided to use pastel colours instead of bright colours. The reason for this is because we wanted to target the large community of people who do have different types of disabilities. Bright colours as such may be overstimulating to others who may otherwise find the colours alright to their eyes. </p>
-<h5>User Stories:<h5>
+<h5>User Stories:</h5>
 <p> - As a visitor, I would like to be able to access different pages within the website to see what the website can offer in terms of knowledge and community presence.</p>
 <p> - As a user, I would like to be able to post in the post page so that I can allow more people to read up on the common misconception others have for different disabilities.</p>
 <p> - As a user, I would like to be able to post about certain things I have experienced which I do not agree with in the community page.</p>
@@ -17,7 +17,7 @@
 <p> As a user, I would like to see what post I have made in the community page and whether these posts have comments in them.</p>
 
 <p>Adobe XD Wireframe: https://xd.adobe.com/view/57e48be8-9dd4-4f4c-b33b-4d6ee6d25611-02b7/</p>
-<h3>Current features:<h3>
+<h3>Current features:</h3>
 <p>Feature 1.) Allow users to login. If the player writes in a username or password that is not found in the database an error page will show up.</p>
 <p>Feature 2.) Allows users to sign up. This allows new users to input their email, username and password which is then sent to the database to be stored for when they log back into the website again.</p>
 <p>Feature 3.) Allow users to access buttons in the main page. These buttons consist of the community page, learning page, sign out, home and contact page. All these buttons are clickable and bring each user to a different page within the website.
@@ -33,7 +33,7 @@
 <p>Feature 13.) In the main page, clicking onto the logo sends users to the contact page. Users can then reference or click onto these links to send them to the company’s various contact pages such as email, Instagram, etc.
 <p>Feature 14.) In the main page, clicking onto the sign out page sends users back to the login page when they choose to stop using the website.
 
-<h3>Future features:<h3>
+<h3>Future features:</h3>
 <p>Feature 1) In the main page, we plan to implement a way for users to change their profile pictures. This can be done through making the profile picture a button through which users can then be sent to a different page and be able to access their laptop or computer pictures for suitable profile pictures.</p>
 <p>Feature 2) In the main page, we plan to implement a helper role button. This button will then send users to a voucher redemption page which will then allow them to use vouchers within the application to gain certain discounts for stores within Singapore. When players click onto a ‘redeem’ button below the voucher, a QR code will then appear on the users page which can then be redeemed. The voucher page will also contain a back button which will allow users to go back to the main page.</p>
 <p>Feature 3) In the main page, the players can see how many followers, likes and points they have. In the future, the number of followers, likes and points can increase when players do certain actions such as posting in the misconception page and commenting with useful information on another users post if they have the hashtag ‘help’ on their post.</p>
@@ -58,14 +58,14 @@
 <p>Feature 22.) The tag function in the create post determines what other functions may be added to a post. For example, a ‘help’ tag would allows the user who posted a post to tick onto comments which they feel are useful. This allows more users to earn points and to be more willing to answer other people’s questions regarding certain misconceptions or confusions they may have.</p>
 <p>Feature 23.) After users have finished making their post, users can then send their post which is then verified by a bot before the users are sent to a page to show that their post has been posted. If their post comes with other specific functions, there will be instructions showing the users what these functions are and how to use these functions.</p>
 
-<h3>Technology Used: <h3>
+<h3>Technology Used: </h3>
 <p> HTML: Was used to connect the bridge between CSS and Javascript. Is what the viewer sees when they open a website.</p>
 <p>CSS: Used to make the website more aesthetically pleasing.</p>
 <p>JavaScript: Was used to make some features within the website functionable. Acts as the skeleton of the website.</p>
 <p>Restdb.io: Was used to store users' credentials such as password and username.</p>
 <p>jQuery: Was used to take user credentials from the html.</p>
 
-<h3>Testing:<h3>
+<h3>Testing:</h3>
 <h5>Sign-Up Page:<h5>
 <p>1) User can add credentials</p>
 <p>2) Click Create Account</p>
@@ -73,7 +73,7 @@
 <p>4) Go loading page</p>
 <p>5) Go home page after loading</p>
 
-<h5>Log-In Page:<h5>
+<h5>Log-In Page:</h5>
 <p>1) User can add credentials</p>
 <p>2) Click Continue</p>
 <p>3) Look for credentials in restdb</p>
@@ -81,7 +81,7 @@
 <p>5) Go loading page if found</p>
 <p>6) Go home page after loading</p>
 
-<h5>Main Page:<h5>
+<h5>Main Page:</h5>
 <p>1) User can click buttons</p>
 <p>2) Go learning page when learning button is clicked</p>
 <p>3) Go community page when community button is clicked</p>
@@ -89,7 +89,7 @@
 <p>5) Go contact page when contact button is clicked</p>
 <p>6) Go home page when home button is clicked</p>
 
-<h5>Learning Page:<h5>
+<h5>Learning Page:</h5>
 <p>1) User can choose which disability they want to learn</p>
 <p>2) Go mental page when mental button is clicked</p>
 <p>3) User can choose which mental disability they want to learn</p>
@@ -97,28 +97,28 @@
 <p>5) Go physical page when physical button is clicked</p>
 <p>6) User can choose which physical disability they want to learn</p>
 
-<h5>ADHD Page:<h5>
+<h5>ADHD Page:</h5>
 <p>1) User can click buttons</p>
 <p>2) Go definition page when definition button is clicked</p>
 <p>4) Go misconception page when the misconception button is clicked</p>
 <p>5) Go edit page when edit button is clicked</p>
 <p>1) User can choose whether they wish to create post or edit it</p>
 
-<h5>Bugs:<h5>
+<h5>Bugs:</h5>
 <p>The sketchfab 3D models are not mobile responsive</p>
 <p>The error page in the login/sign-up page does not appear if user does not enter any credentials</p>
 <p>The error page in the login page appears during verification</p>
 <p>The error page in the sign-up page does not appear if user enter an existing email</p>
 <p>The buttons in some of the learning page are not the same size as the original, and some elements are all over the place</p>
 
-<h5>Media query:<h5>
+<h5>Media query:</h5>
 <p>The main buttons are shifted to the bottom when the screen is shrunked</p>
 <p>Username, profile and role are shifted to the left and the points are vertically aligned at the right side</p>
 <p>The bottom edges of the white box in the login and sign-up page becomes less smooth</p>
 <p>The elements become smaller in size</p>
 
-<h3>Credits/Inspiration:<h3>
-<h5>Images</h5>
+<h3>Credits/Inspiration:</h3>
+<h5>Images<//h5>
 <p>http://store-images.s-microsoft.com/image/apps.9884.13510798887167234.ac7a8ac8-9ca9-4f4d-b67f-eaa709be3ed2.d911a106-a099-463d-9eaf-822e495320ad</p>
 <p>https://mockupduck.com/assets/img/templates/instagram-profile-page-desktop.png</p>
 <p>Home Icon:
